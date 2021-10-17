@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="sketch.js" defer></script>
+  <title>Text Editor</title>
+</head>
+
+<body>
+  <h1>Text Editor</h1>
+
+  <div id="main">
+    <textarea id="text" style="font-size: 32px;"></textarea>
+  </div>
+
+  <label for="thickness"><span id="size">32</span>px</label><input type="range" id="thickness" min="16" max="120"
+    value="32">
+
+  <input type="color" id="picker">
+
+  <select id="color">
+    <option value="color">Font color</option>
+    <option value="background-color">Background color</option>
+  </select>
+
+  <select id="fontfam">
+    <option class="fam" value="Arial">Arial</option>
+    <option class="fam" value="Courier New">Courier New</option>
+    <option class="fam" value="Helvetica">Helvetica</option>
+    <option class="fam" value="Courier">Courier</option>
+    <option class="fam" value="monospace">Monospace</option>
+    <option class="fam" value="Times New Roman">Times New Roman</option>
+  </select>
+
+</body>
+
+</html>
